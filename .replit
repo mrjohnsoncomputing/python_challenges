@@ -1,2 +1,2 @@
 language = "python3"
-run = "python3 ADMIN/main.py"
+run = "python3 ADMIN/FileGeneration/file_generator.py"
