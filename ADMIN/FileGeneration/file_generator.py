@@ -1,4 +1,4 @@
-import random, time
+import random
 
 def write_file(filename, arr):
   with open(filename, "w") as file:
@@ -9,12 +9,11 @@ def write_file(filename, arr):
       file.write(txt)
   
 
-def create_data(size=10):
+def create_speed_data(size=10):
   data = []
   for i in range(size):
     low = 5
     high = 30
-    distance = 10
     hour = random.randint(0,23)
     minute = random.randint(0, 60)
     time1 = (hour * 60) + minute
