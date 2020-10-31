@@ -1,7 +1,16 @@
+---
+title: "README"
+keywords:
+  - Helper
+  - Introduction
+  - Python
+id: 20201031164706
+tags: #python #module #library #import #readme
+...
 # python_challenges
 A collection of challenges produced by Mr Johnson which aim to get you to develop python applications to solve practical and engaging problems.
 
-### Helper library
+## Helper library
 I would really recommend creating a file called `helper.py` when working through these challenges. This will be a python module where you include code that will help you in lots of different problems.
 
 For example, you might include a definition for a function which reads files, such as:
